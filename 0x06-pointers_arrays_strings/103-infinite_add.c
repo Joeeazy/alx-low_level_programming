@@ -38,7 +38,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	}
 	if (carry > 0 && size_r >= maxlen + 2)
 	{
-		for (i = maxlen + 1; i > 0; i++)
+		for (i = maxlen + 1; i > 0; i--)
 		{
 			temp = *(r + i);
 			*(r + i) = *(r + i - 1);
