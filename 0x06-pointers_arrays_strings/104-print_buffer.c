@@ -17,7 +17,7 @@ void print_buffer(char *b, int size)
 			if (i + j < size)
 				printf("%02x", b[i + j]);
 			else
-				printf(" ");
+				printf("  ");
 			if (j % 2 != 0)
 				putchar(' ');
 		}
