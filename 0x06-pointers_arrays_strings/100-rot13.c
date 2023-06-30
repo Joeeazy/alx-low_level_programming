@@ -8,7 +8,7 @@
 char *rot13(char *str)
 {
 	int i, j;
-	char norm[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char norm[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char encode[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; str[i] != '\0'; i++)
