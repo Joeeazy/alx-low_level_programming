@@ -12,6 +12,6 @@ int wildcmp(char *s1, char *s2);
 int is_palindrome(char *s);
 int square_Num(int n, int num);
 int primeNum(int n, int i);
-
+int pString(char *s, int i, int j);
 
 #endif
