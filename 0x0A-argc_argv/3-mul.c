@@ -4,7 +4,7 @@
   *main - a program that multiplies two numbers.
   *@argc: arguments count
   *@argv: arguments vector
-  *Return: 0
+  *Return: 1 or 0
   */
 int main(int argc, char *argv[])
 {
@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	result = atoi(argv[1]) * atoi(argv[1]);
+	result = atoi(argv[1]) * atoi(argv[2]);
 	printf("%d\n", result);
 	return (0);
 }
