@@ -63,7 +63,7 @@ if (num1 < 1 || num2 < 1)
 printf("Error\n");
 exit(98);
 }
-product = num1 * num2;
+product = num1 *num2;
 printf("%d\n", product);
 
 return (0);
