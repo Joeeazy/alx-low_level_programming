@@ -1,7 +1,7 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
-  *free _dog - function to free memory allocated
+  *free_dog - function to free memory allocated
   *@d: pointer to the t the dog's structure
   *Return: 0 success
   */
