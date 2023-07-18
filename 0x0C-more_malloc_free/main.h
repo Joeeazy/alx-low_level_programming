@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+char *mult(const char *num1, const char *num2);
 int _putchar(char c);
 int strint(char *str);
 int is_digit(char c);
