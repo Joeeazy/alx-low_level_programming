@@ -8,7 +8,7 @@
   *Return: 0 Success
   */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	int bytesNumber, j;
 	char *array = (char *)main;
@@ -27,9 +27,7 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	array = (char *)main;
-
-	for (j = 0; j < bytesNumber; j++)
+	for (j = 0; j < bytesNumber - 1; j++)
 		printf("%02hhx ", array[j]);
 	printf("%02hhx\n", array[j]);
 
