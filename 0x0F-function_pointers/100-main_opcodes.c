@@ -11,15 +11,15 @@
 int main(int argc, char *argv[])
 {
 	int bytesNumber, j;
-	char *array;
+	char *array = (char *)main;
 
-	if (argc != 2)
+	if (argc < 2)
 	{
 		printf("Error\n");
 		exit(1);
 	}
 
-	bytesNumber = atoi(argv[j]);
+	bytesNumber = atoi(argv[1]);
 
 	if (bytesNumber < 0)
 	{
@@ -30,13 +30,8 @@ int main(int argc, char *argv[])
 	array = (char *)main;
 
 	for (j = 0; j < bytesNumber; j++)
-	{
-		if (j == bytesNumber - 1)
-		{
-			printf("%02hhx\n", array[j]);
-			break;
-		}
 		printf("%02hhx ", array[j]);
-	}
+	printf("%02hhx\n", array[j]);
+
 	return (0);
 }
