@@ -4,7 +4,7 @@
 /**
   *main- the ain function
   *@argc: arguments count
-  *@argv: vector of arguments 
+  *@argv: arguments vectors
   *Return: 0 Success
   */
 
