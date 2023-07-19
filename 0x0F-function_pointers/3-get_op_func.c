@@ -4,9 +4,9 @@
 #include "function_pointers.h"
 
 /**
-*get_op_func - gets the operator required in an operation
+*get_op_func- gets the operator required in an operation
 *@s: arguments passed in the operator func
-*@Return: the required operator or NULL
+*Return: the required operator or NULL
 */
 
 int (*get_op_func(char *s))(int, int)
