@@ -9,7 +9,6 @@
 void print_all(const char * const format, ...)
 {
 	int i = 0;
-	char *arr = "";
 	char *str = "";
 	va_list args;
 
@@ -19,6 +18,9 @@ void print_all(const char * const format, ...)
 	{
 		while (format[i])
 		{
+			if (i != 0)
+				printf(", ");
+
 			switch (format[i])
 			{
 				case 'c':
@@ -34,13 +36,11 @@ void print_all(const char * const format, ...)
 					str = va_arg(args, char *);
 					if (!str)
 						str = "(nil)";
-					printf("%s%s", str, arr);
+					printf("%s", str);
 					break;
 				default:
-					i++;
-					continue;
+					break;
 			}
-			str = ", ";
 			i++;
 		}
 	}
