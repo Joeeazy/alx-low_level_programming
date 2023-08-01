@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * delete_nodeint_at_index - function that deletes the node at index 
+ * delete_nodeint_at_index - function that deletes the node at index
  * @head: pointer to the first node
  * @index: index of the node to del
  * Return: 1 if it succeeded, -1 if it failed
