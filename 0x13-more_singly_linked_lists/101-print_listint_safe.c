@@ -1,4 +1,3 @@
-#include <stdbool.h>
 #include "lists.h"
 /**
  * print_listint_safe - function that prints a listint_t linked list.
