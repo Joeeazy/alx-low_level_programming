@@ -156,7 +156,7 @@ void elf_osabi(const unsigned char *buffer)
 		"UNIX - OpenBSD",
 		"VMS - OpenVMS",
 		"HP - Non-Stop Kernel",
-		"AROS",	
+		"AROS",
 		"FenixOS",
 		"Nuxi CloudABI",
 		"Stratus Technologies OpenVOS"
