@@ -48,3 +48,4 @@ This repository contains programs created for the ALX School's low-level program
 
 * [0x18-dynamic_libraries] (https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x18-dynamic_libraries)
 
+* [0x1A-hash_tables] (https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x1A-hash_tables)
