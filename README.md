@@ -32,20 +32,20 @@ This repository contains programs created for the ALX School's low-level program
 
 * [0x0E-structures_typedef](https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x0E-structures_typedef)
 
-* [0x0F-function_pointers] (https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x0F-function_pointers)
+* [0x0F-function_pointers](https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x0F-function_pointers)
 
-* [0x10-variadic_functions] (https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x10-variadic_functions)
+* [0x10-variadic_functions](https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x10-variadic_functions)
 
-* [0x12-singly_linked_lists] (https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x12-singly_linked_lists)
+* [0x12-singly_linked_lists](https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x12-singly_linked_lists)
 
-* [0x13-more_singly_linked_lists] (https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists)
+* [0x13-more_singly_linked_lists](https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists)
 
-* [0x14-bit_manipulation] (https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x14-bit_manipulation)
+* [0x14-bit_manipulation](https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x14-bit_manipulation)
 
-* [0x15-file_io] (https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x15-file_io)
+* [0x15-file_io](https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x15-file_io)
 
-* [0x17-doubly_linked_lists] (https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x17-doubly_linked_lists)
+* [0x17-doubly_linked_lists](https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x17-doubly_linked_lists)
 
-* [0x18-dynamic_libraries] (https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x18-dynamic_libraries)
+* [0x18-dynamic_libraries](https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x18-dynamic_libraries)
 
-* [0x1A-hash_tables] (https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x1A-hash_tables)
+* [0x1A-hash_tables](https://github.com/Joeeazy/alx-low_level_programming/tree/master/0x1A-hash_tables)
