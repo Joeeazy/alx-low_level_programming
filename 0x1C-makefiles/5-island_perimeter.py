@@ -23,10 +23,17 @@ def island_perimeter(grid):
             if grid[i][j] == 1:
                 perimeter += 4  # Each land cell contributes 4 to the perimeter
 
-                # Check and subtract the shared edges with neighboring land cells
+                '''Check and subtract the shared
+                edges with neighboring land cells
+                '''
                 if i > 0 and grid[i - 1][j] == 1:
-                    perimeter -= 2  # Subtract 2 for the shared edge with the cell above
+                    perimeter -= 2
+                    '''
+                    Subtract 2 for the shared edge with the cell above
+                    '''
                 if j > 0 and grid[i][j - 1] == 1:
-                    perimeter -= 2  # Subtract 2 for the shared edge with the cell to the left
-
+                    perimeter -= 2
+                    '''
+                    Subtract 2 for the shared edge with the cell to the left
+                    '''
     return perimeter
