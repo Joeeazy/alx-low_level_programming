@@ -17,6 +17,14 @@ General
 
  * What are explicit and implicit rules
 
+    Explicit Rule: This is a rule where the target and prerequisites are explicitly specified along with the commands. For example:
+    ```bash
+    target: prerequisite1 prerequisite2
+	command1
+	command2
+    ```
+
+
  * What are the most common / useful rules
 
  * What are variables and how to set and use them
