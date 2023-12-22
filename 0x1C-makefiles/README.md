@@ -27,6 +27,17 @@ General
     Implicit Rule: Implicit rules define a general recipe for how to build a certain type of target. For example, how to compile a C source file into an object file. Implicit rules are built into Make and a    re triggered when Make encounters a target it doesn't know how to build explicitly.
 
 
+
  * What are the most common / useful rules
 
+    all: It's a common rule that builds the entire project.
+    
+    clean: Removes all built files, leaving only the source code.
+    
+    install: Installs the compiled program or library to a specified location.
+    
+    distclean: Cleans everything, including editor backup files, temporary files, etc.
+
  * What are variables and how to set and use them
+
+    
