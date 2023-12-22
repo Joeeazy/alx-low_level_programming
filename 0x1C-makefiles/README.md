@@ -6,7 +6,7 @@ General
 
  * When, why and how to use Makefiles
 
-    
+    Makefiles are particularly useful in large projects with multiple source files. They help automate the build process by tracking dependencies and rebuilding only the necessary components when source cod    e changes. Makefiles are commonly used in C projects, but they can be employed for various programming languages and scenarios.
 
  * What are rules and how to set and use them
 
