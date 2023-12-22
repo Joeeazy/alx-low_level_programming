@@ -55,7 +55,7 @@ General
 
     Makefiles are used when a program consists of multiple source files, and changes to one file should trigger recompilation of only the affected files. They are especially useful in large projects to         automate the build process and manage dependencies. Makefiles help in organizing the project, making it easier to collaborate and maintain.
 
-    To use a Makefile, you typically create one in the project directory and define the rules, dependencies, and variables according to your project structure. Then, running the make command will build the specified target or the default target if none is specified.
+    To use a Makefile, you typically create one in the project directory and define the rules, dependencies, and variables according to your project structure. Then, running the make command will build the     specified target or the default target if none is specified.
 
     Makefiles are an integral part of many software development projects, and mastering them can significantly improve the efficiency of the development process.
 
