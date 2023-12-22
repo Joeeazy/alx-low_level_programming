@@ -24,6 +24,8 @@ General
 	command2
     ```
 
+    Implicit Rule: Implicit rules define a general recipe for how to build a certain type of target. For example, how to compile a C source file into an object file. Implicit rules are built into Make and a    re triggered when Make encounters a target it doesn't know how to build explicitly.
+
 
  * What are the most common / useful rules
 
