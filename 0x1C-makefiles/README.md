@@ -13,7 +13,7 @@ General
 
  * What are rules and how to set and use them
     
-    
+    In a Makefile, rules define how to build a target. Each rule consists of a target, prerequisites (dependencies), and commands. The target is the file or thing to be built, the prerequisites are the file    s that the target depends on, and the commands are the steps to build the target.
 
  * What are explicit and implicit rules
 
