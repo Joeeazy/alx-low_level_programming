@@ -49,5 +49,8 @@ General
     target: source.c
 	    $(CC) $(CFLAGS) -o target source.c
     ```
+    In this example, CC is a variable for the compiler, and CFLAGS is a variable for the compiler flags.
+
+
 
 
