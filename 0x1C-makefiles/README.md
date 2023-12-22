@@ -40,4 +40,14 @@ General
 
  * What are variables and how to set and use them
 
-    
+    Variables in Makefiles are used to store values that can be reused throughout the file. They make it easy to modify the Makefile without changing the same value in multiple places. Variables are defined    with the syntax VARNAME = value and used with $(VARNAME).
+
+    ```bash
+    CC = gcc
+    CFLAGS = -Wall -O2
+
+    target: source.c
+	    $(CC) $(CFLAGS) -o target source.c
+    ```
+
+
