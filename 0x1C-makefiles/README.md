@@ -58,9 +58,3 @@ General
     To use a Makefile, you typically create one in the project directory and define the rules, dependencies, and variables according to your project structure. Then, running the make command will build the     specified target or the default target if none is specified.
 
     Makefiles are an integral part of many software development projects, and mastering them can significantly improve the efficiency of the development process.
-
-
-
-
-
-
