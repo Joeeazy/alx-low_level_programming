@@ -1,4 +1,4 @@
-Gral
+# General
 
  * What are make, Makefiles
 
