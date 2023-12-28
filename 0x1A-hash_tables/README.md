@@ -1,4 +1,4 @@
-#C - Hash tables
+# C - Hash tables
 
 A hash table is a data structure that maps keys to values. It is used to store key-value pairs, where the key is generated through a hashing function.
 
